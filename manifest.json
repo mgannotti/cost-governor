@@ -1,0 +1,33 @@
+{
+  "cloud_writes": false,
+  "description": "Track token and tool spend per session and automation against your own rate card.",
+  "distribution": "standalone",
+  "engine": "scripts/cost_governor.py",
+  "entrypoint": "SKILL.md",
+  "exit_codes": {
+    "0": "pass",
+    "1": "review",
+    "2": "block",
+    "3": "evidence error"
+  },
+  "input": "Usage records as JSON or JSONL.",
+  "name": "cost-governor",
+  "network_required": false,
+  "outputs": [
+    "cost-governor.json",
+    "cost-governor.md",
+    "cost-governor.html"
+  ],
+  "runtime": {
+    "python": ">=3.10",
+    "third_party_packages": []
+  },
+  "schemas": {
+    "output": "references/report-schema.json"
+  },
+  "sends_messages": false,
+  "source_pack": "scout-agentops-kit",
+  "template": "templates/usage.example.json",
+  "tests": "tests/test_cost_governor.py",
+  "version": "1.0.0"
+}

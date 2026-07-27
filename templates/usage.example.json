@@ -1,0 +1,9 @@
+[
+  {"run_id": "r-001", "automation": "Deep Research Queue", "model": "example-model-a", "input_tokens": 18400, "output_tokens": 2100, "tool_calls": 6, "duration_s": 41.2, "started_at": "2026-07-27T08:10:00Z", "artifacts": ["answer-001.json"]},
+  {"run_id": "r-002", "automation": "Deep Research Queue", "model": "example-model-a", "input_tokens": 17900, "output_tokens": 1980, "tool_calls": 5, "duration_s": 38.7, "started_at": "2026-07-27T08:15:00Z", "artifacts": []},
+  {"run_id": "r-003", "automation": "Deep Research Queue", "model": "example-model-a", "input_tokens": 18100, "output_tokens": 2050, "tool_calls": 6, "duration_s": 40.1, "started_at": "2026-07-27T08:20:00Z", "artifacts": []},
+  {"run_id": "r-004", "automation": "Deep Research Queue", "model": "example-model-a", "input_tokens": 210000, "output_tokens": 14000, "tool_calls": 63, "duration_s": 512.0, "started_at": "2026-07-27T08:25:00Z", "artifacts": ["answer-004.json"]},
+  {"run_id": "r-005", "automation": "Weekly Brief", "model": "example-model-b", "input_tokens": 9200, "output_tokens": 3100, "tool_calls": 4, "duration_s": 22.4, "started_at": "2026-07-27T09:00:00Z", "artifacts": ["brief.md"]},
+  {"run_id": "r-006", "automation": "Weekly Brief", "model": "example-model-b", "input_tokens": 8800, "output_tokens": 2900, "tool_calls": 4, "duration_s": 21.9, "started_at": "2026-07-27T09:05:00Z", "artifacts": ["brief.md"]},
+  {"run_id": "r-007", "automation": "Morning Digest", "model": "example-model-c", "input_tokens": 4100, "output_tokens": 900, "tool_calls": 2, "duration_s": 11.0, "started_at": "2026-07-27T07:00:00Z", "artifacts": ["digest.md"]}
+]
